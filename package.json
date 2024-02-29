@@ -1,0 +1,20 @@
+{
+  "name": "explore-react-native-ip-library",
+  "version": "1.0.0",
+  "description": "Here we try to explore how can we get Link-Local IPv6 addresses. Using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ip",
+    "networking",
+    "react",
+    "react-native"
+  ],
+  "author": "",
+  "license": "MIT license",
+  "dependencies": {
+    "ip": "^2.0.1"
+  }
+}
