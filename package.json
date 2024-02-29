@@ -4,7 +4,8 @@
   "description": "Here we try to explore how can we get Link-Local IPv6 addresses. Using NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon ./test.server.js",
+    "start": "nodemon ./server.js"
   },
   "keywords": [
     "ip",
@@ -15,6 +16,7 @@
   "author": "",
   "license": "MIT license",
   "dependencies": {
-    "ip": "^2.0.1"
+    "ip": "^2.0.1",
+    "nodemon": "^3.1.0"
   }
 }
